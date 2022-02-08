@@ -4,8 +4,19 @@
 
 #include <stdio.h>
 
-int main() {
-  
+int main() 
+{
+  int fmarks , smarks , x;
+
+  printf("Enter your first marks:");
+  scanf("%d",&fmarks);
+
+  printf("Enter your second marks:");
+  scanf("%d",&smarks);
+
+  x = (fmarks + smarks)/2;
+
+  printf("The avarage is :%d",x);
   return 0;
 }
 
